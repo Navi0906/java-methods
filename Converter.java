@@ -46,10 +46,10 @@ public class Converter {
 		double miles = convertKmToMiles(km);
 		double feet = convertMetersToFeet(meters);
 		
-        System.out.printf(km+" kilometers is equal to "+miles+" miles.");
-        System.out.printf(miles+" miles is equal to "+kmFromMiles+" kilometers.");
-        System.out.printf(meters+" meters is equal to "+feet+" feet.");
-		System.out.printf(feetInput+" feet is equal to "+metersFromFeet+" meters.");
+        System.out.println(km+" kilometers is equal to "+miles+" miles.");
+        System.out.println(miles+" miles is equal to "+kmFromMiles+" kilometers.");
+        System.out.println(meters+" meters is equal to "+feet+" feet.");
+		System.out.println(feetInput+" feet is equal to "+metersFromFeet+" meters.");
 
     }
 }
