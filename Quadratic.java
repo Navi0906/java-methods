@@ -38,7 +38,7 @@ public class Quadratic {
         } else {
             double root1 = (-b + Math.sqrt(delta)) / (2 * a);
             double root2 = (-b - Math.sqrt(delta)) / (2 * a);
-            return new double[]{root1, root2}; 
+            return new double[]{root1,root2}; 
         }
     }
 }
